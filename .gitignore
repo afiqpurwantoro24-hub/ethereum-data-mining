@@ -1,0 +1,20 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw data: keep the original CSV local until its source and license are verified
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed CSVs may also be subject to the source license; enable committing only after verification
+data/processed/*.csv
